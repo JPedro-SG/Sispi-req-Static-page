@@ -11,7 +11,7 @@ import CsuIcon from "./components/icons/CsuIcon.vue";
 
 <template>
   <div class="container">
-    <header><img src="./assets/SispiLogo.png" />Sisgpi</header>
+    <header><img src="./assets/SispiLogo.png" /><span>Sisgpi</span></header>
     <!-- Primeira Seção -->
     <div class="section-1">
       <h1>Sisgpi</h1>
@@ -101,6 +101,10 @@ import CsuIcon from "./components/icons/CsuIcon.vue";
 </template>
 
 <style scoped>
+* {
+  color: black;
+}
+
 .section-1,
 .section-2,
 .section-3,
@@ -111,6 +115,13 @@ footer {
 p {
   max-width: 80ch;
   text-align: left;
+}
+header {
+  background-color: #204887;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.5px;
 }
 .section-1 {
   /* color: white; */
@@ -142,7 +153,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-  /* background-color: #204887; */
+  background-color: #204887;
 }
 
 .video video {
@@ -235,6 +246,12 @@ img {
   height: 400px;
 }
 
+footer {
+  background-color: #204887;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 .section-3 {
 }
 
