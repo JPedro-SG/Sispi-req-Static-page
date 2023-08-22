@@ -29,6 +29,9 @@ import CsuIcon from "./components/icons/CsuIcon.vue";
       <!-- <video src="./assets/PitchPreliminar.mkv" type="video/mp4" controls>
         <source src="./assets/PitchPreliminar.mkv" type="video/mp4" />
       </video> -->
+      <!-- <vue-core-video-player
+        src="./assets/PitchPreliminar.mkv"
+      ></vue-core-video-player> -->
     </div>
   </div>
   <!-- Terceira Seção -->
