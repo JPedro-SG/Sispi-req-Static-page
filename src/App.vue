@@ -11,10 +11,10 @@ import CsuIcon from "./components/icons/CsuIcon.vue";
 
 <template>
   <div class="container">
-    <header><img src="./assets/SispiLogo.png" /><span>Sisgpi</span></header>
+    <header><img src="./assets/SispiLogo.png" />SisGPI</header>
     <!-- Primeira Seção -->
     <div class="section-1">
-      <h1>Sisgpi</h1>
+      <h1>SisGPI</h1>
       <h2>Engenharia de Requisitos</h2>
       <p>
         O Sisgpi - Engenharia de Requisitos facilita a gestão do software,
