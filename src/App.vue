@@ -10,92 +10,94 @@ import CsuIcon from "./components/icons/CsuIcon.vue";
 </script>
 
 <template>
-  <header><img src="./assets/SispiLogo.png" />Sisgpi</header>
-  <!-- Primeira Seção -->
-  <div class="section-1">
-    <h1>Sisgpi</h1>
-    <h2>Engenharia de Requisitos</h2>
-    <p>
-      O Sisgpi - Engenharia de Requisitos facilita a gestão do software,
-      concentrando as informações me um só lugar, melhora a comunicação entre
-      testadores e desenvolvedores, além de facilitar os teste dos caso de uso
-      do sistema.
-    </p>
-  </div>
+  <div class="container">
+    <header><img src="./assets/SispiLogo.png" />Sisgpi</header>
+    <!-- Primeira Seção -->
+    <div class="section-1">
+      <h1>Sisgpi</h1>
+      <h2>Engenharia de Requisitos</h2>
+      <p>
+        O Sisgpi - Engenharia de Requisitos facilita a gestão do software,
+        concentrando as informações me um só lugar, melhora a comunicação entre
+        testadores e desenvolvedores, além de facilitar os teste dos caso de uso
+        do sistema.
+      </p>
+    </div>
 
-  <!-- Segunda Seção -->
-  <div class="section-2">
-    <div class="video">
-      <!-- <video src="./assets/PitchPreliminar.mkv" type="video/mp4" controls>
+    <!-- Segunda Seção -->
+    <div class="section-2">
+      <div class="video">
+        <!-- <video src="./assets/PitchPreliminar.mkv" type="video/mp4" controls>
         <source src="./assets/PitchPreliminar.mkv" type="video/mp4" />
       </video> -->
-      <!-- <vue-core-video-player
+        <!-- <vue-core-video-player
         src="./assets/PitchPreliminar.mkv"
       ></vue-core-video-player> -->
-    </div>
-  </div>
-  <!-- Terceira Seção -->
-  <div class="section-3">
-    <h3>Funcionalidades</h3>
-    <div class="wrapper">
-      <div class="function-card">
-        <GearsIcon class="function-icons" />
-        <p>Gestão de Requisitos</p>
-      </div>
-      <div class="function-card">
-        <ClipboardIcon class="function-icons" />
-        <p>Gestão de Charters</p>
-      </div>
-      <div class="function-card">
-        <CsuIcon class="function-icons" />
-        <p>Gestão de Casos de Uso</p>
-      </div>
-      <div class="function-card">
-        <CheckedIcon class="function-icons" />
-        <p>Acompanhamento de testes</p>
-      </div>
-      <div class="function-card">
-        <MagnGlassIcon class="function-icons" />
-        <p>Rastreabilidade</p>
-      </div>
-      <div class="function-card">
-        <ListcheckIcon class="function-icons" />
-        <p>Controle de dependencias</p>
       </div>
     </div>
-  </div>
-  <!-- Quarta seção -->
-  <div class="section-4">
-    <!-- <GithubIcon class="gitIcon" /> -->
-    <h3>Equipe de Desenvolvimento</h3>
-    <div class="wrapper">
-      <div class="dev-card">
-        <p>Guilherme</p>
-        <a href=""><GithubIcon class="gitIcon" /></a>
-      </div>
-      <div class="dev-card">
-        <p>João Pedro</p>
-        <a href=""><GithubIcon class="gitIcon" /></a>
-      </div>
-      <div class="dev-card">
-        <p>José Gabriel</p>
-        <a href=""><GithubIcon class="gitIcon" /></a>
-      </div>
-      <div class="dev-card">
-        <p>Leandro</p>
-        <a href=""><GithubIcon class="gitIcon" /></a>
-      </div>
-      <div class="dev-card">
-        <p>Tiago</p>
-        <a href=""><GithubIcon class="gitIcon" /></a>
+    <!-- Terceira Seção -->
+    <div class="section-3">
+      <h3>Funcionalidades</h3>
+      <div class="wrapper">
+        <div class="function-card">
+          <GearsIcon class="function-icons" />
+          <p>Gestão de Requisitos</p>
+        </div>
+        <div class="function-card">
+          <ClipboardIcon class="function-icons" />
+          <p>Gestão de Charters</p>
+        </div>
+        <div class="function-card">
+          <CsuIcon class="function-icons" />
+          <p>Gestão de Casos de Uso</p>
+        </div>
+        <div class="function-card">
+          <CheckedIcon class="function-icons" />
+          <p>Acompanhamento de testes</p>
+        </div>
+        <div class="function-card">
+          <MagnGlassIcon class="function-icons" />
+          <p>Rastreabilidade</p>
+        </div>
+        <div class="function-card">
+          <ListcheckIcon class="function-icons" />
+          <p>Controle de dependencias</p>
+        </div>
       </div>
     </div>
-    <div></div>
+    <!-- Quarta seção -->
+    <div class="section-4">
+      <!-- <GithubIcon class="gitIcon" /> -->
+      <h3>Equipe de Desenvolvimento</h3>
+      <div class="wrapper">
+        <div class="dev-card">
+          <p>Guilherme</p>
+          <a href=""><GithubIcon class="gitIcon" /></a>
+        </div>
+        <div class="dev-card">
+          <p>João Pedro</p>
+          <a href=""><GithubIcon class="gitIcon" /></a>
+        </div>
+        <div class="dev-card">
+          <p>José Gabriel</p>
+          <a href=""><GithubIcon class="gitIcon" /></a>
+        </div>
+        <div class="dev-card">
+          <p>Leandro</p>
+          <a href=""><GithubIcon class="gitIcon" /></a>
+        </div>
+        <div class="dev-card">
+          <p>Tiago</p>
+          <a href=""><GithubIcon class="gitIcon" /></a>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <footer>
+      <div>Contato</div>
+      Sispi@dcomp.ufs.br
+    </footer>
   </div>
-  <footer>
-    <div>Contato</div>
-    Sispi@dcomp.ufs.br
-  </footer>
 </template>
 
 <style scoped>
@@ -215,8 +217,7 @@ p {
 @media (max-width: 365px) {
 }
 .container {
-  display: flex;
-  flex-direction: row;
+  background-color: white;
 }
 
 header {
