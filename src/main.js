@@ -1,6 +1,5 @@
 import "./assets/main.css";
 import "primevue/resources/themes/lara-light-indigo/theme.css";
-// import VueCoreVideoPlayer from "vue-core-video-player";
 
 import { createApp } from "vue";
 import PrimeVue from "primevue/config";

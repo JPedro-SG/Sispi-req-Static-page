@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "primevue": "^3.32.1",
+    "video.js": "^8.5.2",
     "vue": "^3.3.4",
     "vue-core-video-player": "^0.2.0"
   },
