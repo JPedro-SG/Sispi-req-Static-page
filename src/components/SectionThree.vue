@@ -7,9 +7,9 @@ import RocketSVG from "./icons/RocketSVG.vue";
     <div class="gestao">
       <h3>Gestão de Requisitos, Casos de uso e Charters</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad culpa
-        id pariatur quaerat animi nihil harum minus eius repellendus quam
-        voluptatibus, rem dolore fuga facilis earum. Asperiores, quod adipisci!
+        Quer manter seus requisitos em dias? Com o SisGPI - Engenharia de
+        Requisitos você pode! Mas não fique limitado a isso, pois nós, também,
+        fornecemos suporte a Casos de Uso e Charters.
       </p>
     </div>
   </div>
@@ -18,7 +18,8 @@ import RocketSVG from "./icons/RocketSVG.vue";
 .section-3 {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
 }
 
 .section-3 .img_container {
@@ -59,6 +60,7 @@ import RocketSVG from "./icons/RocketSVG.vue";
     align-items: center; */
     grid-template-columns: 1fr 1fr;
     margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .section-3 .img_container {
@@ -67,7 +69,7 @@ import RocketSVG from "./icons/RocketSVG.vue";
 
   .section-3 .gestao {
     margin: 0;
-    margin-top: 1rem;
+    padding-top: 1rem;
     text-align: center;
   }
 

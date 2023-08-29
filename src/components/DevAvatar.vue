@@ -81,6 +81,7 @@ export default {
   border-radius: 10px;
   padding: 0.8rem 1.25rem;
   line-height: 1rem;
+  color: rgb(26, 21, 21);
 }
 
 .dev-info .name {

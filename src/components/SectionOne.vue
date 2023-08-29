@@ -5,7 +5,7 @@ import RequirementsEngSVG from "./icons/RequirementsEngSVG.vue";
   <div class="section-1">
     <div class="section-1__wrapper">
       <RequirementsEngSVG class="req-svg" />
-      <h1>Agilize sua documentação!</h1>
+      <h1>Agilize seu desenvolvimento!</h1>
     </div>
   </div>
 </template>
@@ -58,7 +58,7 @@ import RequirementsEngSVG from "./icons/RequirementsEngSVG.vue";
   .section-1 h1 {
     position: absolute;
     bottom: 0;
-    font-size: 49px;
+    font-size: 48px;
   }
 
   .req-svg {

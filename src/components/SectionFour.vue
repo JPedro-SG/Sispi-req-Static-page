@@ -6,9 +6,10 @@ import GlassSVG from "./icons/GlassSVG.vue";
     <div class="rastreabilidade">
       <h3>Rastreabilidade</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad culpa
-        id pariatur quaerat animi nihil harum minus eius repellendus quam
-        voluptatibus, rem dolore fuga facilis earum. Asperiores, quod adipisci!
+        Não precisa se preocupar com modificações feitas pelos membros da
+        equipe. O Sispi - Engenharia de Requisitos fornece recursos de
+        rastreabilidades para que você possa acompanhar as modificações
+        realizadas no projeto.
       </p>
     </div>
     <div class="img_container">
@@ -23,6 +24,7 @@ import GlassSVG from "./icons/GlassSVG.vue";
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  background-color: white;
 }
 
 .section-4 .img_container {

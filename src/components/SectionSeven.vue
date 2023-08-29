@@ -40,7 +40,7 @@ import CordAvatar from "./CordAvatar.vue";
       </div>
     </div>
     <div class="section-7-orientadores">
-      <h3>Coordenação</h3>
+      <h3>Consultoria Técnica</h3>
       <div class="cord-container">
         <CordAvatar
           name="Dra Debora Maria Coelho Nascimento"
@@ -50,13 +50,20 @@ import CordAvatar from "./CordAvatar.vue";
           name="Dra Adicinéia Aparecida de Oliveira"
           src="https://www.sigaa.ufs.br/sigaa/verFoto?idFoto=2552750&key=9a118fcc3fa898eea8618faa638191cc"
         />
+        <CordAvatar
+          name="Dra Edilayne Meneses Salgueiro"
+          src="https://www.sigaa.ufs.br/sigaa/verFoto?idFoto=2804043&key=2c550c5e3366b53d6005ff3252cab577"
+        />
+        <CordAvatar
+          name="Dr Ricardo José Paiva de Britto Salgueiro"
+          src="https://www.sigaa.ufs.br/sigaa/verFoto?idFoto=2804136&key=c2271c20af48a07c3cceaaf523eb28c5"
+        />
       </div>
     </div>
   </div>
 </template>
 <style>
 .section-7 {
-  margin-top: 2rem;
   background-color: #004aad;
 }
 

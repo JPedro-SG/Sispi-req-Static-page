@@ -6,9 +6,10 @@ import CompletedSVG from "./icons/CompletedSVG.vue";
     <div class="testes">
       <h3>Acompanhamento de testes</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad culpa
-        id pariatur quaerat animi nihil harum minus eius repellendus quam
-        voluptatibus, rem dolore fuga facilis earum. Asperiores, quod adipisci!
+        Com o Sispi - Engenharia de Requisitos, você poderá criar tarefas de
+        implementações para seus requisitos, casos de usos e charters, além
+        disso, você poderá acompanhar os resultados obtidos pela equipe de
+        testes.
       </p>
     </div>
     <div class="img_container"><CompletedSVG class="completedSVG" /></div>
@@ -18,7 +19,8 @@ import CompletedSVG from "./icons/CompletedSVG.vue";
 .section-5 {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
 }
 
 .section-5 .img_container {

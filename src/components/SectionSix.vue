@@ -31,6 +31,10 @@ export default {
   </div>
 </template>
 <style>
+.section-6 {
+  background-color: white;
+  padding-bottom: 2rem;
+}
 .section-6 h3 {
   color: #003b8a;
   margin-left: 2rem;
