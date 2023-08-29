@@ -5,7 +5,7 @@ import CordAvatar from "./CordAvatar.vue";
 <template>
   <div class="section-7">
     <div class="section-7-devs">
-      <h3>Equipe de Desenvolvimento</h3>
+      <h3 class="ft">Equipe de Desenvolvimento</h3>
       <div class="dev-container">
         <DevAvatar
           name="Tiago Oliveira"
@@ -74,6 +74,9 @@ import CordAvatar from "./CordAvatar.vue";
   font-size: 24px;
 }
 
+.section-7 .ft {
+  padding-top: 1rem;
+}
 .section-7 .dev-container {
   display: flex;
   flex-direction: row;
