@@ -6,7 +6,7 @@ import CompletedSVG from "./icons/CompletedSVG.vue";
     <div class="testes">
       <h3>Acompanhamento de testes</h3>
       <p>
-        Com o Sispi - Engenharia de Requisitos, você poderá criar tarefas de
+        Com o SISGIP - Engenharia de Requisitos, você poderá criar tarefas de
         implementações para seus requisitos, casos de usos e charters, além
         disso, você poderá acompanhar os resultados obtidos pela equipe de
         testes.

@@ -6,10 +6,10 @@ import GlassSVG from "./icons/GlassSVG.vue";
     <div class="rastreabilidade">
       <h3>Rastreabilidade</h3>
       <p>
-        Não precisa se preocupar com modificações feitas pelos membros da
-        equipe. O Sispi - Engenharia de Requisitos fornece recursos de
-        rastreabilidades para que você possa acompanhar as modificações
-        realizadas no projeto.
+        Quer manter as dependencias do seus casos de usos e requisitos em dias?
+        Não se preocupe, pois no SISGIP - Engenharia de requisitos
+        possibilitamos recursos para gerar dependências entre casos de uso ou
+        requisitos.
       </p>
     </div>
     <div class="img_container">

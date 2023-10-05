@@ -7,7 +7,7 @@ import RocketSVG from "./icons/RocketSVG.vue";
     <div class="gestao">
       <h3>Gestão de Requisitos, Casos de uso e Charters</h3>
       <p>
-        Quer manter seus requisitos em dias? Com o SisGPI - Engenharia de
+        Quer manter seus requisitos em dias? Com o SISGIP - Engenharia de
         Requisitos você pode! Mas não fique limitado a isso, pois nós, também,
         fornecemos suporte a Casos de Uso e Charters.
       </p>

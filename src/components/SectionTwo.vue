@@ -3,7 +3,7 @@
 <template>
   <div class="section-2">
     <p>
-      O Sisgpi - Engenharia de Requisitos facilita a gestão do software,
+      O SISGIP - Engenharia de Requisitos facilita a gestão do software,
       concentrando as informações me um só lugar, melhora a comunicação entre
       testadores e desenvolvedores, além de facilitar os teste dos caso de uso
       do sistema.

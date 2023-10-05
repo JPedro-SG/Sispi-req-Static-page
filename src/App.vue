@@ -15,9 +15,9 @@ import Footer from "./components/Footer.vue";
 <template>
   <div class="container">
     <header>
-      <img src="./assets/SispiLogo.png" />
+      <img src="./assets/logo_dark_nobg.png" />
       <div class="info">
-        <h1>SisGPI</h1>
+        <h1>SISGIP</h1>
         <span>Engenharia de Requisitos</span>
       </div>
     </header>

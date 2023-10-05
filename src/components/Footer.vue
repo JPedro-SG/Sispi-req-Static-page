@@ -1,9 +1,9 @@
 <template>
   <footer>
     <div class="sispi-container">
-      <img src="../assets/SispiLogo.png" />
+      <img src="../assets/logo_dark_nobg.png" />
       <div>
-        <h1>SisGPI</h1>
+        <h1>SISGIP</h1>
         <span>Engenharia de Requisitos</span>
       </div>
     </div>
@@ -14,6 +14,9 @@
   </footer>
 </template>
 <style>
+footer {
+  background-color: white;
+}
 .sispi-container {
   display: flex;
   background-color: #004aad;
